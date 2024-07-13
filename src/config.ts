@@ -1,14 +1,14 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://paperblog-jigra.vercel.app/", // replace this with your deployed domain
+  website: "https://paperblog-jigra.vercel.app/",
   author: "Jigar",
   // desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
   desc: "A minimal blog site.",
   title: "Jigra Blogs",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
-  postPerPage: 3,
+  postPerPage: 4,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
 };
 

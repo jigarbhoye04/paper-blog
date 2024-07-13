@@ -28,10 +28,10 @@ export const SITE = {
   website: "https://astro-paper.pages.dev/",
   author: "Jigar Bhoye",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
-  ogImage: "astropaper-og.jpg",
+  title: "Jigra Blogs",
+  ogImage: "jigrablogs_img.jpg",
   lightAndDarkMode: true,
-  postPerPage: 3,
+  postPerPage: 4,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
 };
 ```
