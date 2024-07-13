@@ -28,7 +28,7 @@ export const SITE = {
   website: "https://astro-paper.pages.dev/",
   author: "Jigar Bhoye",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "Jigra Blogs",
+  title: "BlogWave",
   ogImage: "jigrablogs_img.jpg",
   lightAndDarkMode: true,
   postPerPage: 4,

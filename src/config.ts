@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Jigar",
   // desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
   desc: "A minimal blog site.",
-  title: "Jigra Blogs",
+  title: "BlogWave",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 4,
