@@ -1,10 +1,11 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
+  website: "https://paperblog-jigra.vercel.app/", // replace this with your deployed domain
   author: "Jigar",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
+  // desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  desc: "A minimal blog site.",
+  title: "Jigra Blogs",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
@@ -56,7 +57,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Twitter",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/jigarbhoye04/astro-paper",
     linkTitle: `${SITE.title} on Twitter`,
     active: false,
   },
@@ -69,49 +70,49 @@ export const SOCIALS: SocialObjects = [
   /*
   {
     name: "CodePen",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/jigarbhoye04/astro-paper",
     linkTitle: `${SITE.title} on CodePen`,
     active: false,
   },
   {
     name: "Discord",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/jigarbhoye04/astro-paper",
     linkTitle: `${SITE.title} on Discord`,
     active: false,
   },
   {
     name: "GitLab",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/jigarbhoye04/astro-paper",
     linkTitle: `${SITE.title} on GitLab`,
     active: false,
   },
   {
     name: "Reddit",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/jigarbhoye04/astro-paper",
     linkTitle: `${SITE.title} on Reddit`,
     active: false,
   },
   {
     name: "Skype",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/jigarbhoye04/astro-paper",
     linkTitle: `${SITE.title} on Skype`,
     active: false,
   },
   {
     name: "Steam",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/jigarbhoye04/astro-paper",
     linkTitle: `${SITE.title} on Steam`,
     active: false,
   },
   {
     name: "Telegram",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/jigarbhoye04/astro-paper",
     linkTitle: `${SITE.title} on Telegram`,
     active: false,
   },
   {
     name: "Mastodon",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/jigarbhoye04/astro-paper",
     linkTitle: `${SITE.title} on Mastodon`,
     active: false,
   },
