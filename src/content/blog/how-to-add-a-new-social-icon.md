@@ -4,7 +4,7 @@ pubDatetime: 2024-01-08T18:16:00.000Z
 modDatetime:
 title: How to add a new Social Icon to AstroPaper
 featured: false
-draft: false
+draft: true
 tags:
   - FAQ
 description: How to add a new social icon to AstroPaper
@@ -16,7 +16,7 @@ Hot new platform? Niche corner of the internet? Or one specific to your area? Th
 
 ## Merging back to the theme
 
-The maintainer of the theme [Sat Naing](https://github.com/satnaing) has said that he intends to only
+The maintainer of the theme [Jigar Bhoye](https://github.com/satnaing) has said that he intends to only
 
 > keep the project supporting only a specific set of popular social icons.
 
