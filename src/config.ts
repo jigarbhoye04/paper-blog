@@ -67,6 +67,12 @@ export const SOCIALS: SocialObjects = [
     linkTitle: `${SITE.title} on YouTube`,
     active: false,
   },
+  {
+    name: "PhotoBlog",
+    href: "https://candid-canvas.vercel.app",
+    linkTitle: `${SITE.title} Candid Canvas`,
+    active: true,
+  }
   /*
   {
     name: "CodePen",
