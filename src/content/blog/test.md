@@ -4,7 +4,7 @@ author: Jigar Bhoye
 pubDatetime: 2024-07-13T10:00:00Z
 slug: exploring-dang-gujarat
 featured: true
-draft: false
+draft: true
 tags:
   - Travel
   - Nature

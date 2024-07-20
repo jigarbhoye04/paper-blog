@@ -70,7 +70,7 @@ export const SOCIALS: SocialObjects = [
   {
     name: "PhotoBlog",
     href: "https://candid-canvas.vercel.app",
-    linkTitle: `${SITE.title} Candid Canvas`,
+    linkTitle: `Candid Canvas`,
     active: true,
   }
   /*
