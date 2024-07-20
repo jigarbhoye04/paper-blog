@@ -4,7 +4,7 @@ author: Jigar Bhoye
 pubDatetime: 2024-07-20T12:00:00Z
 slug: building-blog-site
 featured: true
-draft: true
+draft: false
 tags:
   - Web Development
   - Astro
