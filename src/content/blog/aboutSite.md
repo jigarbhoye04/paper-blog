@@ -26,7 +26,4 @@ The project is a blog site designed to publish articles, manage content, and pro
 - **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
 - **Markdown**: A lightweight markup language for creating formatted text using a plain-text editor.
 
-
-
-
-# Complete blog Soon...! 
+# Complete blog Soon...!
