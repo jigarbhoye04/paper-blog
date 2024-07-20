@@ -1,24 +1,43 @@
 ---
 ---
 <style>
+    :root {
+        --cursor-color-light: black; 
+        --cursor-outline-color-light: black;
+        --cursor-color-dark: #e0e0e0; 
+        --cursor-outline-color-dark: #666666; 
+    }
+  
+    [data-theme="light"] {
+      --cursor-color: var(--cursor-color-light);
+      --cursor-outline-color: var(--cursor-outline-color-light);
+    }
+  
+    [data-theme="dark"] {
+      --cursor-color: var(--cursor-color-dark);
+      --cursor-outline-color: var(--cursor-outline-color-dark);
+    }
+  
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
+  
     body {
       cursor: none; /* Hide default cursor */
     }
+  
     .cursor-dot {
       width: 5px;
       height: 5px;
-      background-color: white;
+      background-color: var(--cursor-color);
     }
   
     .cursor-dot-outline {
       width: 15px;
       height: 15px;
-      border: 2px solid white;
+      border: 2px solid var(--cursor-outline-color);
     }
   
     .cursor-dot,
@@ -33,7 +52,7 @@
       z-index: 1;
     }
   </style>
-  
+
   <slot />
   <div class="cursor-dot" data-cursor-dot></div>
   <div class="cursor-dot-outline" data-cursor-outline></div>
