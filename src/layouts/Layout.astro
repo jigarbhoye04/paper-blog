@@ -111,7 +111,9 @@ const socialImageURL = new URL(
     <script is:inline src="/toggle-theme.js"></script>
   </head>
   <body>
-    <CustomCursor />
-    <slot />
+    <CustomCursor>
+      <slot />
+    </CustomCursor>
+    <!-- <slot /> -->
   </body>
 </html>

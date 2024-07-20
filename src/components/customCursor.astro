@@ -1,57 +1,75 @@
 ---
 ---
 <style>
-    :root {
-        --cursor-color-light: black; 
-        --cursor-outline-color-light: black;
-        --cursor-color-dark: #e0e0e0; 
-        --cursor-outline-color-dark: #666666; 
-    }
-  
-    [data-theme="light"] {
-      --cursor-color: var(--cursor-color-light);
-      --cursor-outline-color: var(--cursor-outline-color-light);
-    }
-  
-    [data-theme="dark"] {
-      --cursor-color: var(--cursor-color-dark);
-      --cursor-outline-color: var(--cursor-outline-color-dark);
-    }
-  
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-  
-    body {
-      cursor: none; /* Hide default cursor */
-    }
-  
-    .cursor-dot {
-      width: 5px;
-      height: 5px;
-      background-color: var(--cursor-color);
-    }
-  
-    .cursor-dot-outline {
-      width: 15px;
-      height: 15px;
-      border: 2px solid var(--cursor-outline-color);
-    }
-  
-    .cursor-dot,
-    .cursor-dot-outline {
-      position: fixed;
-      top: 0;
-      left: 0;
-      border-radius: 50%;
-      transform: translate(-50%, -50%);
-      pointer-events: none;
-      transition: all 0.1s ease;
-      z-index: 1;
-    }
-  </style>
+  :root {
+    --cursor-color-light: black; 
+    --cursor-outline-color-light: black;
+    --cursor-color-dark: #e0e0e0; 
+    --cursor-outline-color-dark: #666666; 
+  }
+
+  [data-theme="light"] {
+    --cursor-color: var(--cursor-color-light);
+    --cursor-outline-color: var(--cursor-outline-color-light);
+  }
+
+  [data-theme="dark"] {
+    --cursor-color: var(--cursor-color-dark);
+    --cursor-outline-color: var(--cursor-outline-color-dark);
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    cursor: none; /* Hide default cursor */
+  }
+
+  .cursor-dot {
+    width: 8px; /* Adjusted for better visibility */
+    height: 8px;
+    background-color: var(--cursor-color);
+  }
+
+  .cursor-dot-outline {
+    width: 30px;
+    height: 30px;
+    border: 2px solid var(--cursor-outline-color);
+    opacity: 1; /* Hide outline by default */
+  }
+
+  .cursor-dot,
+  .cursor-dot-outline {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: all 0.1s ease;
+    z-index: 1;
+  }
+
+  /* Increase size and visibility on hover */
+  #main-content {
+    cursor: none; /* Ensure the default cursor is not shown */
+  }
+
+  #main-content:hover .cursor-dot {
+    width: 12px; /* Increase size on hover */
+    height: 12px;
+  }
+
+  #main-content:hover .cursor-dot-outline {
+    width: 40px; /* Increase size of the outline on hover */
+    height: 40px;
+    opacity: 1; /* Make the outline visible */
+  }
+</style>
+
 
   <slot />
   <div class="cursor-dot" data-cursor-dot></div>
