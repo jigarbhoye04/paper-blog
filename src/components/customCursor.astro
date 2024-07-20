@@ -1,0 +1,60 @@
+---
+---
+<style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      cursor: none; /* Hide default cursor */
+    }
+    .cursor-dot {
+      width: 5px;
+      height: 5px;
+      background-color: white;
+    }
+  
+    .cursor-dot-outline {
+      width: 15px;
+      height: 15px;
+      border: 2px solid white;
+    }
+  
+    .cursor-dot,
+    .cursor-dot-outline {
+      position: fixed;
+      top: 0;
+      left: 0;
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      transition: all 0.1s ease;
+      z-index: 1;
+    }
+  </style>
+  
+  <slot />
+  <div class="cursor-dot" data-cursor-dot></div>
+  <div class="cursor-dot-outline" data-cursor-outline></div>
+  <script>
+    const cursorDot = document.querySelector('[data-cursor-dot]') as HTMLElement;
+    const cursorOutline = document.querySelector('[data-cursor-outline]');
+
+    window.addEventListener("mousemoce",function(e: MouseEvent){
+      const posX = e.clientX;
+      const posY = e.clientY;
+
+      cursorDot.style.left = `${posX}px`;
+      cursorDot.style.top = `${posY}px`;
+
+      // cursorOutline.style.left = `${posX}px`;
+      // cursorOutline.style.top = `${posY}px`;
+
+
+      cursorOutline.animate({
+        left: `${posX}px`,
+        top: `${posY}px` 
+      },{duration: 500, fill: "forwards"});
+    })
+  </script>
