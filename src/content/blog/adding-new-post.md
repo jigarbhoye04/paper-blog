@@ -2,18 +2,18 @@
 author: Jigar Bhoye
 pubDatetime: 2022-09-23T15:22:00Z
 modDatetime: 2023-12-21T09:12:47.400Z
-title: Adding new posts in AstroPaper theme
-slug: adding-new-posts-in-astropaper-theme
+title: Adding new posts in BlogSite theme
+slug: adding-new-posts-in-BlogSite-theme
 featured: true
-draft: true
+draft: false
 tags:
   - docs
 description:
-  Some rules & recommendations for creating or adding new posts using AstroPaper
+  Some rules & recommendations for creating or adding new posts using BlogSite
   theme.
 ---
 
-Here are some rules/recommendations, tips & ticks for creating new posts in AstroPaper blog theme.
+Here are some rules/recommendations, tips & ticks for creating new posts in BlogSite blog theme.
 
 ## Table of contents
 
@@ -41,7 +41,7 @@ Here is the list of frontmatter property for each post.
 
 Only `title`, `description` and `pubDatetime` fields in frontmatter must be specified.
 
-Title and description (excerpt) are important for search engine optimization (SEO) and thus AstroPaper encourages to include these in blog posts.
+Title and description (excerpt) are important for search engine optimization (SEO) and thus BlogSite encourages to include these in blog posts.
 
 `slug` is the unique identifier of the url. Thus, `slug` must be unique and different from other posts. The whitespace of `slug` should to be separated with `-` or `_` but `-` is recommended. Slug is automatically generated using the blog post file name. However, you can define your `slug` as a frontmatter in your blog post.
 
@@ -95,7 +95,7 @@ For instance, if you want to place your table of contents just under the intro p
 # some frontmatter
 ---
 
-Here are some recommendations, tips & ticks for creating new posts in AstroPaper blog theme.
+Here are some recommendations, tips & ticks for creating new posts in BlogSite blog theme.
 
 ## Table of contents
 
@@ -104,7 +104,7 @@ Here are some recommendations, tips & ticks for creating new posts in AstroPaper
 
 ## Headings
 
-There's one thing to note about headings. The AstroPaper blog posts use title (title in the frontmatter) as the main heading of the post. Therefore, the rest of the heading in the post should be using h2 \~ h6.
+There's one thing to note about headings. The BlogSite blog posts use title (title in the frontmatter) as the main heading of the post. Therefore, the rest of the heading in the post should be using h2 \~ h6.
 
 This rule is not mandatory, but highly recommended for visual, accessibility and SEO purposes.
 
