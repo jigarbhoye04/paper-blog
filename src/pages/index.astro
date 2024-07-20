@@ -42,12 +42,13 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a> -->
 
       <p>
-        This blog site is a minimal, responsive, accessible and SEO-friendly 
-        theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+        This blog site is a minimal, responsive, accessible and SEO-friendly
+        and follows best practices and provides accessibility
+        out of the box. Light and dark mode are supported by default.
       </p>
-      {
+
+      <!-- I mean what's the point of adding multiple section for socials. It's already in footer and that's okay -->
+      <!-- {
         // only display if at least one social link is enabled
         socialCount > 0 && (
           <div class="social-wrapper">
@@ -55,7 +56,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
             <Socials />
           </div>
         )
-      }
+      } -->
     </section>
 
     <Hr />
