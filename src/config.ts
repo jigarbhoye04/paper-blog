@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://blogsbyjigar.vercel.app/",
   author: "Jigar",
   desc: "A minimal blog site.",
-  title: "Posts",
+  title: "Stuff!",
   ogImage: "",
   lightAndDarkMode: true,
   postPerPage: 10,
