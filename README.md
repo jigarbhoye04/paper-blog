@@ -33,5 +33,5 @@ Any static assets, like images, can be placed in the `public/` directory.
 
 All blog posts are stored in `src/content/blog` directory.
 
-> For AstroPaper, check out this [live URL](https://blogsbyjigar.vercel.app/)
+> For Blog, check out this [live URL](https://blogsbyjigar.vercel.app/)
 
