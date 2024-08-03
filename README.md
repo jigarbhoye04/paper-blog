@@ -1,37 +1,39 @@
-## 🚀 Project Structure
+# Blog
 
-```bash
+Welcome to the **JigarBhoye Blog**! This project is a modern and minimalistic blog template built using [Astro](https://astro.build/), designed for easy customization and deployment. It provides a clean and responsive layout suitable for various types of content, especially blogs.
+
+This project is **forked from [AstroPaper](https://github.com/satnaing/astro-paper)**.
+
+## 🚀 Live Demo
+
+Check out the live version of the blog [here](https://blogsbyjigar.vercel.app/).
+
+## 📂 Project Structure
+
+Here's an overview of the project's file structure:
+
+```plaintext
 /
 ├── public/
 │   ├── assets/
-│   │   └── logo.svg
-│   │   └── logo.png
-│   └── favicon.svg
-│   └── astropaper-og.jpg
-│   └── robots.txt
+│   │   ├── logo.svg
+│   │   ├── logo.png
+│   ├── favicon.svg
+│   ├── astropaper-og.jpg
+│   ├── robots.txt
 │   └── toggle-theme.js
 ├── src/
 │   ├── assets/
 │   │   └── socialIcons.ts
 │   ├── components/
 │   ├── content/
-│   │   |  blog/
-│   │   |    └── some-blog-posts.md
+│   │   ├── blog/
+│   │   │   └── some-blog-posts.md
 │   │   └── config.ts
 │   ├── layouts/
-│   └── pages/
-│   └── styles/
-│   └── utils/
-│   └── config.ts
+│   ├── pages/
+│   ├── styles/
+│   ├── utils/
+│   ├── config.ts
 │   └── types.ts
 └── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-All blog posts are stored in `src/content/blog` directory.
-
-> For Blog, check out this [live URL](https://blogsbyjigar.vercel.app/)
-
