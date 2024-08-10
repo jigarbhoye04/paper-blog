@@ -3,7 +3,7 @@ title: Building a Modern Blog Site with Astro
 author: Jigar Bhoye
 pubDatetime: 2024-07-20T12:00:00Z
 slug: building-blog-site
-featured: true
+featured: false
 draft: false
 tags:
   - Web Development
