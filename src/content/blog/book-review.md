@@ -2,7 +2,7 @@
 author: Jigar Bhoye
 pubDatetime: 2024-08-11T00:00:00.000+00:00
 title: The Subtle Art of Not Giving a F*ck - Book Review
-slug: the-subtle-art-review
+slug: the-subtle-art-book-review
 featured: true
 draft: false
 tags:
