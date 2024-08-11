@@ -2,9 +2,8 @@
 title: Exploring the Enchanting Dang District in Gujarat
 author: Jigar Bhoye
 pubDatetime: 2024-07-13T10:00:00Z
-slug: exploring-dang-gujarat
 featured: true
-draft: true
+draft: false
 tags:
   - Travel
   - Nature
