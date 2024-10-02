@@ -16,3 +16,17 @@ const getSortedPosts = (posts: CollectionEntry<"blog">[]) => {
 };
 
 export default getSortedPosts;
+
+
+/*
+This file is a utility function that filters the posts
+based on the postFilter function and sorts them based
+on the modified date or the published date of the post.
+  
+  Then returns the sorted posts.
+
+  the postFilter function is imported from the postFilter.ts file.
+  which checks if the post is a draft or if the current time is greater than the publish time of the post.
+  then accordingly returns a boolean value.
+  
+*/

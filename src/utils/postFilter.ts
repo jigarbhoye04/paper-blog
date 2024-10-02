@@ -9,3 +9,13 @@ const postFilter = ({ data }: CollectionEntry<"blog">) => {
 };
 
 export default postFilter;
+
+/*
+This file is a filter function that
+checks if the post is a draft or
+if the current time is greater than
+the publish time of the post.
+
+then accordingly returns a boolean value.
+
+*/
